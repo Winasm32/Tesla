@@ -1,0 +1,90 @@
+.footer {
+  color: inherit;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer ul {
+  color: inherit;
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer ul li {
+  color: inherit;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.footer ul li a {
+  
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+.footer div p {
+  color: inherit;
+  text-align: center ;
+  width: 80%;
+  color: whitesmoke;
+  font-size: 0.7rem;
+  margin: 0 auto;
+  margin: 0 1rem;
+  margin-top:1rem;
+  margin: 0 auto;
+  text-transform:capitalize;
+  
+ }
+
+element.style {
+  font-size: smaller;
+}
+
+.tcl-site-footer~.block p {
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  padding-bottom: 14px;
+}
+h1, h2, h3, h4, h5, h6, li, p, small {
+  line-height: var(--tds-line-height--30);
+}
+
+h1, h2, h3, h4, h5, h6, p, small {
+  display: block;}
+
+  li, p {
+    max-inline-size: 75ch;
+}
+* {
+  outline-offset: 2px;
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+p {
+  color: inherit;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+tcl-page__shell .tds-footer-nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+}
+a {
+  color: inherit;
+}
+
